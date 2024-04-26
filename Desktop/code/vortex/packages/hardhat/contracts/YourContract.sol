@@ -17,7 +17,7 @@ contract YourContract {
 	address public immutable owner;
 	string public greeting = "Building Unstoppable Apps!!!";
 	bool public premium = false;
-	uint256 public totalCounter = 0;
+	uint256 public totalCounter = 1;
 	mapping(address => uint) public userGreetingCounter;
 
 	// Events: a way to emit log statements from smart contract that can be listened to by external parties
